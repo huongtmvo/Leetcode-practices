@@ -1,0 +1,6 @@
+2339. All the Matches of the League
+
+
+select A.team_name as home_team, B.team_name as away_team
+from Teams as A, Teams as B
+where A.team_name != B.team_name
